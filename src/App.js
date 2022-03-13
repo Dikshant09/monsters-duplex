@@ -34,8 +34,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Monsters duplex</h1>
-        {/* Passing this handleChange function which will be called every time we write something in search box and it will upadte the searchField state and generate filteredMonsters acc.to that and send to the cardlist, cardlist will be rerendered.*/}
-        {/* <SearchBox placeholder = 'search monsters' handleChange = { e => this.handleChange() }/> */}
+        {/* Passing this handleChange function which will be called every time we write something in search box and it will update the searchField state and generate filteredMonsters acc.to that and send to the cardlist, cardlist will be rerendered.*/}
+
         <SearchBox placeholder = 'search monsters' handleChange = { this.handleChange }/>
         
         {/* Passing This filtered Monster array to the CardList Component as props */}
